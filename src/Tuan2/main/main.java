@@ -1,7 +1,7 @@
-package main;
+package Tuan2.main;
 
-import Manage.StudentManager;
-import model.Student;
+import Tuan2.Manage.StudentManager;
+import Tuan2.model.Student;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -42,6 +42,7 @@ public class main {
                     studentManager.add(name,age,avg);
                     break;
                 case 3:
+
                     break;
                 case 4:
                     break;

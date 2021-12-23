@@ -1,6 +1,8 @@
-package model;
+package Tuan3;
 
 public class Human {
+    private static int VALUE = 0;
+    private int id;
     private String name;
     private int age;
 
@@ -8,8 +10,17 @@ public class Human {
     }
 
     public Human(String name, int age) {
+        this.id = ++VALUE;
         this.name = name;
         this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -30,8 +41,9 @@ public class Human {
 
     @Override
     public String toString() {
-        return "model.Human{" +
-                "name='" + name + '\'' +
+        return "Human{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }

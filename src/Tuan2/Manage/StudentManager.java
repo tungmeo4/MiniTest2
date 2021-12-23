@@ -1,6 +1,6 @@
-package Manage;
+package Tuan2.Manage;
 
-import model.Student;
+import Tuan2.model.Student;
 
 import java.util.ArrayList;
 
@@ -32,17 +32,17 @@ public class StudentManager implements Manage{
     }
 
     @Override
-    public void findById() {
+    public void findById(int id) {
 
     }
 
     @Override
-    public void deleteById() {
+    public void deleteById(int id) {
 
     }
 
     @Override
-    public void editById() {
+    public void editById(int id) {
 
     }
 
@@ -55,5 +55,6 @@ public class StudentManager implements Manage{
     public void totalAvg() {
 
     }
+
 
 }

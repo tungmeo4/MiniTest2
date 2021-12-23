@@ -1,4 +1,4 @@
-package model;
+package Tuan2.model;
 
 public class Student extends Human{
     private double avg;
